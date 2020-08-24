@@ -10,11 +10,11 @@ Check the id of docker container
 >>use admin
 
 >>db.auth(“username”,”password”)
-db.auth("root","123456")
+(db.auth("root","123456"))
 
 >>database_name
 (test)
 
 >>db.createUser({user:”username”,pwd:"123456",roles:[{role:"dbOwner",db:”databaseName”}]})
-db.createUser({user:"root1",pwd:"123456",roles:[{role:"dbOwner",db:"test"}]})
+(db.createUser({user:"root1",pwd:"123456",roles:[{role:"dbOwner",db:"test"}]}))
 
